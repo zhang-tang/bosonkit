@@ -16,7 +16,7 @@ namespace BosonKit {
     export function bos0011(pin: AnalogPin): number {
 
         let value: number = pins.analogReadPin(pin);
-        return (value*(3.3/10.24))*3.3/10.24;
+        return Math.round((100*value*(3.3/10.24))*3.3/10.24) / 100;
     }
 
     //% block="read pin %pin soil moisture" 
@@ -39,7 +39,7 @@ namespace BosonKit {
             return -1;
         }
         else {
-            return ((1177692.5 / (3950 + (298.15 * (Math.log((n_Rt / 10.0)))))) - 270.35);
+            return Math.round(((1177692.5 / (3950 + (298.15 * (Math.log((n_Rt / 10.0)))))) - 270.35) * 100) / 100;
         }
 
     }
