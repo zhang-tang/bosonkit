@@ -1,6 +1,6 @@
 {
     "name": "BosonKit",
-    "description": "",
+    "description": "0.0.1",
     "dependencies": {
         "core": "*",
         "radio": "*",
@@ -10,7 +10,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "BosonKit.ts"
+        "BosonKit.ts",
+        "_locales/zh-cn/BosonKit-strings.json"
     ],
     "testFiles": [
         "test.ts"

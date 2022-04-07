@@ -1,0 +1,7 @@
+{
+    "BosonKit.bos0004|block": "读取引脚%pin光线强度",
+    "BosonKit.bos0011|block": "读取引脚%pin温度",
+    "BosonKit.bos0038|block": "读取引脚%pin土壤湿度",
+    "BosonKit.bos0042|block": "读取引脚%pin防水温度",
+    "BosonKit.bos0056|block": "读取引脚%pin空气湿度"
+}
